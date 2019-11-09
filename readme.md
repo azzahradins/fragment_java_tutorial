@@ -71,6 +71,7 @@ Penjelasan : pada file tersebut kita juga dapat mengatur id setiap bottom naviga
 
 7. Berikut hasil modified bottom navigation bar yang sudah kita buat :
 
+
 ![](image2.png)
 <hr>
 <b>B. Membuat Halaman Fragment Baru </b>
@@ -153,6 +154,8 @@ Penjelasan : pada file tersebut kita juga dapat mengatur id setiap bottom naviga
 </FrameLayout>
 ```
 Dengan kode program diatas menghasilkan kode seperti berikut :
+
+
 ![](image4.png)
 
 

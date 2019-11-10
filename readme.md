@@ -37,7 +37,7 @@ Berikut merupakan contoh tampilan menggunakan fragment multi-pane :
 ```
 Penjelasan : pada file tersebut kita juga dapat mengatur id setiap bottom navigation dan icon pada bottom navigation bar tersebut.
 
-6. Jangan lupa modifikasi kode pada layout `MainActivity.java` kalian juga dengan kode seperti berikut` :
+6. Jangan lupa modifikasi kode pada layout `res/layout/activity_main.xml` kalian juga dengan kode seperti berikut` :
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -75,7 +75,6 @@ Penjelasan : pada file tersebut kita juga dapat mengatur id setiap bottom naviga
 ![](image2.png)
 <hr>
 <b>B. Membuat Halaman Fragment Baru </b>
-
 
 1. Buat fragment baru dengan nama `WelcomeFragment`. Kita dapat membuat fragment baru dengan cara klik kanan new fragment seperti gambar dibawah ini :
 ![](image3.png)

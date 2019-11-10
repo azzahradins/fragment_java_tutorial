@@ -76,42 +76,11 @@ Penjelasan : pada file tersebut kita juga dapat mengatur id setiap bottom naviga
 <hr>
 <b>B. Membuat Halaman Fragment Baru </b>
 
-1. Tambahkan kode berikut pada `res/layout/activity_main.xml` untuk menambahkan fragment pada tampilan :
-    ```xml
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/container"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
 
-    <fragment
-        android:id="@+id/main_frame"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/nav_view">
-    </fragment>
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:background="?android:attr/windowBackground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/bottom_nav_menu" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    ```
-
-2. Buat fragment baru dengan nama `WelcomeFragment`. Kita dapat membuat fragment baru dengan cara klik kanan new fragment seperti gambar dibawah ini :
+1. Buat fragment baru dengan nama `WelcomeFragment`. Kita dapat membuat fragment baru dengan cara klik kanan new fragment seperti gambar dibawah ini :
 ![](image3.png)
 
-3. Sekarang kita dapat mengubah tampilan pada fragment dan mengisi dengan komponen tersedia yang telah dipelajari dipertemuan sebelumnya. Berikut merupakan salah satu kode yang dapat diterapkan
+2. Sekarang kita dapat mengubah tampilan pada fragment dan mengisi dengan komponen tersedia yang telah dipelajari dipertemuan sebelumnya. Berikut merupakan salah satu kode yang dapat diterapkan
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
